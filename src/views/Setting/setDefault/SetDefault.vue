@@ -16,7 +16,7 @@
         <el-radio label="3" border>自动时间格式</el-radio>
       </el-radio-group>
     </div>
-    <el-input v-if="radio === '1'" v-model="valuePrint" placeholder="图片文件夹(格式：hexo/4/)"></el-input>
+    <el-input v-if="radio === '1'" v-model="valuePrint" placeholder="图片文件夹(格式：photo)"></el-input>
     <el-cascader v-else-if="radio === '2'" v-model="valueAuto" :props="options" clearable></el-cascader>
     <el-input v-if="radio === '3'" v-model="valueTime" placeholder="自动今日时间格式(eg:2022/07/08/)" disabled></el-input>
     <el-button @click="saveDefault">保存</el-button>

@@ -11,13 +11,13 @@
     <h2 class="setting-hd-h2">密钥配置</h2>
     <el-form ref="formRef" :model="form" :rules="rules">
       <el-form-item label="application_key_id" prop="application_key_id">
-        <el-input v-model="form.application_key_id" placeholder="默认id:00457d81d62d2380000000003"></el-input>
+        <el-input v-model="form.application_key_id" placeholder="默认id:00457d81d62d2380000000005"></el-input>
       </el-form-item>
       <el-form-item label="application_key" prop="application_key">
-        <el-input v-model="form.application_key" show-password placeholder="默认密钥:K004tAlc03FLp1iG4DBVXzYSHVj6YUM"></el-input>
+        <el-input v-model="form.application_key" show-password placeholder="默认密钥:K004Zdy3fRVbcC6CDsKJtU+Xyc8O8e0"></el-input>
       </el-form-item>
       <el-form-item label="自定义域名" prop="host_url">
-        <el-input v-model="form.host_url" placeholder="默认:https://cloud.tsuki.icu/ 注意:结尾必须加 ‘/’">
+        <el-input v-model="form.host_url" placeholder="默认:https://f004.backblazeb2.com/file/ptsuki/ 注意:结尾必须加 ‘/’">
         </el-input>
       </el-form-item>
       <el-form-item label="存储桶" prop="bucket_name">

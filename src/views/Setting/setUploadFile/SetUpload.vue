@@ -10,7 +10,7 @@
   <div class="set-upload">
     <h2 class="setting-hd-h2" style="padding-bottom:10px;">B2桶图片上传路径（文件夹路径/名称） <span class="red-c">必填</span>（默认根目录下）
     </h2>
-    <el-input v-model="tofile" placeholder="eg:hexo/2/"></el-input>
+    <el-input v-model="tofile" placeholder="eg:photo/"></el-input>
     <el-button @click="saveToFile">保存</el-button>
   </div>
 </template>
